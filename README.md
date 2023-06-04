@@ -7,35 +7,40 @@ Feel free to clone it, use it, modify it, pull request, etcetera!
 
 Setting this configuration up is really easy:
 
-### 
+## 
 
 You just need to clone this repo wherever you want.
 Then, set the BASH_IT_CUSTOM variable in your ~/.bashrc file to the directory
 where you cloned this repo.
 
 E.g:
+
 `export BASH_IT_CUSTOM=~/documents/repos/ns_bash_it_custom/`
 
-### 
+## 
 
 Additionally, I also like to use the "atomic" theme, but that's just preference.
 If you want to change your theme, open your ~/.bashrc file and search for a
-line that says `export BASH_IT_THEME='something'` (nothe, it doesn't have to
+line that says `export BASH_IT_THEME='something'` (note, it doesn't have to
 necessarily say 'something', that's just an example) and edit it to use your
 favourite theme.
 
-If you want to use my modified atomic theme, it should look like this:
+**Important:**
+
+If **DO** you want to use my modified atomic theme, it should look like this:
+
 `export BASH_IT_THEME='/absolute/path/to/this_repo/themes/atomic.theme.bash'`
+
 Of course, replace "/absolute/path/to/this_repo/" with the absolute path to this
 repository.
 
-**Important:**
-If you do NOT want to use my custom theme, you should either delete ir, or
+
+If you do **NOT** want to use my custom theme, you should either delete it, or
 rename its .bash extension to something else, like .bash2, or .bash.bak,
 otherwise your theme of choice will probably be overwritten by the one in this
 repo.
 
-### 
+## 
 
 And that's it!
 
@@ -44,7 +49,10 @@ And that's it!
 My config only adds git aliases such as `gs="git status"`, and a few other
 aliases such as `lr=ls -lRa`, `bit=bash_it`, and so.
 
-This config also contains a modified version of the atomic theme.
+This config also contains a modified version of the atomic theme. You must
+either use it as explained above, or delete/remove its .bash extension.
+Oherwise your theme of choise (or lack there of) will be overwritten by this
+theme, and some errors might occur.
 
 ## Why does this repo exist?
 
