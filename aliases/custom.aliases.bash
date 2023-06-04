@@ -23,3 +23,5 @@ alias gpl="git pull"
 alias gs="git status"
 
 alias ga="git add"
+
+alias rf="rm -rf"
