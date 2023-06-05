@@ -4,7 +4,7 @@ alias francinette=/home/fhongu/francinette/tester.sh
 
 alias paco=/home/fhongu/francinette/tester.sh
 
-alias vim=/usr/local/bin/nvim
+alias vim="/usr/local/bin/nvim -c NvimTreeToggle -c 'wincmd w'"
 
 alias bit=bash_it
 
@@ -25,3 +25,11 @@ alias gs="git status"
 alias ga="git add"
 
 alias rf="rm -rf"
+
+alias cb="cd .."
+
+alias tm=tmux
+
+alias tx=tmuxifier
+
+alias ftprintfvim="cd ~/documents/repos/ft_printf/ && nvim ~/documents/repos/ft_printf/src/ft_printf.c -c 'lua require(\"nvterm.terminal\").toggle \"horizontal\"' -c 'wincmd w' -c NvimTreeToggle -c 'wincm w' -c vsp"
