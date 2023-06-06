@@ -22,6 +22,7 @@ alias francinette=/home/fhongu/francinette/tester.sh
 alias paco=/home/fhongu/francinette/tester.sh
 alias vim="/usr/local/bin/nvim -c NvimTreeToggle -c 'wincmd w'"
 alias bit=bash_it
+alias t=todo.sh
 
 # List
 alias ls="colorls"
