@@ -2,19 +2,21 @@
 alias ftprintfvim="cd ~/documents/repos/ft_printf/ && nvim src/ft_printf.c -c 'lua require(\"nvterm.terminal\").toggle \"horizontal\"' -c 'wincmd w' -c NvimTreeToggle -c 'wincm w' -c vsp"
 
 # Git
-alias gcl="git clone"
-alias gl="git log"
-alias gitlg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-alias gp="git push"
-alias gc="git commit -m"
-alias gck="git checkout"
-alias gf="git fetch"
-alias gpl="git pull"
 alias gs="git status"
 alias ga="git add"
 alias gall="ga *"
 alias ga*=gall
 alias nah="git clean -df && git checkout -- ."
+alias gcl="git clone"
+alias gl="git log"
+alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gp="git push"
+alias gc="git commit -m"
+alias gck="git checkout"
+alias gf="git fetch"
+alias gpl="git pull"
+alias grb="git rebase"
+alias gam="git commit --amend --no-edit"
 
 # Git extras
 alias gpb="git playback -t tomorrow-night-eighties"
@@ -26,7 +28,8 @@ alias tx=tmuxifier
 alias francinette=/home/fhongu/francinette/tester.sh
 alias paco=/home/fhongu/francinette/tester.sh
 alias memusage=~/documents/repos/scripts/memusage.sh
-alias vim="/usr/local/bin/nvim -c NvimTreeToggle -c 'wincmd w'"
+alias vim="nvim -c NvimTreeToggle -c 'wincmd w'"
+alias vimdiff="nvim -d"
 alias bit=bash_it
 alias t=todo.sh
 
