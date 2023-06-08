@@ -10,12 +10,12 @@ Setting this configuration up is really easy:
 ## 
 
 You just need to clone this repo wherever you want.
-Then, set the BASH_IT_CUSTOM variable in your ~/.bashrc file to the directory
-where you cloned this repo.
+Then, set the BASH_IT_CUSTOM variable in your ~/.bashrc file to the `custom`
+directory in this repo.
 
 E.g:
 
-`export BASH_IT_CUSTOM=~/documents/repos/ns_bash_it_custom/`
+`export BASH_IT_CUSTOM=~/documents/repos/ns_bash_it_custom/custom/`
 
 ## 
 
@@ -54,13 +54,37 @@ either use it as explained above, or delete/remove its .bash extension.
 Oherwise your theme of choise (or lack there of) will be overwritten by this
 theme, and some errors might occur.
 
-## Why does this repo exist?
+## FAQ
 
-It may seem weird that this repo exists if it only ever adds a few aliases and
-a couple of theme color changes, but the idea is that whenever I switch to a
-different machine, be it physical or virtual, I can quickly clone and install 
-bash_it, clone my config and my nvim config and instantly feel at home and
-boost my productivity on the new machine.
+### Why this folder structure?
 
-Also, the custom changes will be growing as time passes, so the need to use this
-repo will also grow.
+According to the bash_it documentation, you need to set the `BASH_IT_CUSTOM`
+variable to a directory containing your custom configuration.
+
+
+However, that directory must not contain custom themes, because otherwise
+bash_it will parse them and they will override your current theme.
+
+That means all the config that you want to always be loaded has to be in a
+different directory than the themes directory.
+Plus I this README.md file should also not be inside the same folder as the
+configs.
+
+### Why use this configuration?
+
+I have tailored my terminal to be beautiful, fast, convenient, and easy to use.
+You literally just download this and set a variable and that's it.
+
+This makes it easy for anyone who just set up a brand new machine, or someone
+who is starting out with the terminal to get a good terminal setup that looks
+great, and lets you do more with less effort.
+
+Also, the custom changes will be growing as time passes, so keep updated!
+
+I am also creating my own shell scripts and programs and uploading them to 
+my [scripts](https://github.com/NorielSylvire/scripts) repo, and [my neovim config](https://github.com/NorielSylvire/NsNvChad)
+has a repo as well.
+
+I will probably combine all of them into one big dotfiles repo when it becomes
+large and good enough, and also set up an installer to make it even easier to
+use!
