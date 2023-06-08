@@ -1,5 +1,5 @@
 # Quick projects
-alias ftprintfvim="cd ~/documents/repos/ft_printf/ && nvim ~/documents/repos/ft_printf/src/ft_printf.c -c 'lua require(\"nvterm.terminal\").toggle \"horizontal\"' -c 'wincmd w' -c NvimTreeToggle -c 'wincm w' -c vsp"
+alias ftprintfvim="cd ~/documents/repos/ft_printf/ && nvim src/ft_printf.c -c 'lua require(\"nvterm.terminal\").toggle \"horizontal\"' -c 'wincmd w' -c NvimTreeToggle -c 'wincm w' -c vsp"
 
 # Git
 alias gcl="git clone"
@@ -12,7 +12,12 @@ alias gf="git fetch"
 alias gpl="git pull"
 alias gs="git status"
 alias ga="git add"
+alias gall="ga *"
+alias ga*=gall
 alias nah="git clean -df && git checkout -- ."
+
+# Git extras
+alias gpb="git playback -t tomorrow-night-eighties"
 
 # Misc
 alias rf="rm -rf"
@@ -20,6 +25,7 @@ alias tm=tmux
 alias tx=tmuxifier
 alias francinette=/home/fhongu/francinette/tester.sh
 alias paco=/home/fhongu/francinette/tester.sh
+alias memusage=~/documents/repos/scripts/memusage.sh
 alias vim="/usr/local/bin/nvim -c NvimTreeToggle -c 'wincmd w'"
 alias bit=bash_it
 alias t=todo.sh
