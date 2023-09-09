@@ -25,13 +25,15 @@ alias gpb="git playback -t tomorrow-night-eighties"
 alias rf="rm -rf"
 alias tm=tmux
 alias tx=tmuxifier
-alias francinette=/home/fhongu/francinette/tester.sh
-alias paco=/home/fhongu/francinette/tester.sh
+alias francinette=~/francinette/tester.sh
+alias paco=~/francinette/tester.sh
 alias memusage=~/documents/repos/scripts/memusage.sh
 alias vim="nvim -c NvimTreeToggle -c 'wincmd w'"
 alias vimdiff="nvim -d"
 alias bit=bash_it
 alias t=todo.sh
+alias npm=~/tools/node-v18.16.0-linux-x64/bin/npm
+alias npx=~/tools/node-v18.16.0-linux-x64/bin/npx
 
 # List
 alias ls="colorls"
@@ -40,6 +42,7 @@ alias L="ls -l"
 alias la="ls -a"
 alias ll="ls -la"
 alias lr="/bin/ls -lRa"
+alias lf="/bin/ls -F"
 
 # Clear
 alias c="clear"
