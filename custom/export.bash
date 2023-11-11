@@ -1,3 +1,5 @@
 export PATH="${HOME}/bin:${PATH}"
+export C_INCLUDE_PATH="${HOME}/include:${C_INCLUDE_PATH}"
+export CPLUS_INCLUDE_PATH="${HOME}/include:${CPLUS_INCLUDE_PATH}"
 export CPATH="${HOME}/include:${CPATH}"
 export LIBRARY_PATH="${HOME}/lib:${LIBRARY_PATH}"
