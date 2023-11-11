@@ -28,12 +28,13 @@ alias tx=tmuxifier
 alias francinette=~/francinette/tester.sh
 alias paco=~/francinette/tester.sh
 alias memusage=~/documents/repos/scripts/memusage.sh
-alias vim="nvim -c NvimTreeToggle -c 'wincmd w'"
+alias vim="nvim -c NvimTreeToggle -c \"wincmd w\""
 alias vimdiff="nvim -d"
 alias bit=bash_it
 alias t=todo.sh
 alias npm=~/tools/node-v18.16.0-linux-x64/bin/npm
 alias npx=~/tools/node-v18.16.0-linux-x64/bin/npx
+alias lol="fortune | cowsay | lolcat"
 
 # List
 alias ls="colorls"
