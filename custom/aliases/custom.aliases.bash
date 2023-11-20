@@ -4,8 +4,8 @@ alias ftprintfvim="cd ~/documents/repos/ft_printf/ && nvim src/ft_printf.c -c 'l
 # Git
 alias gs="git status"
 alias ga="git add"
-alias gall="ga *"
-alias ga*=gall
+alias gall="git add *"
+alias "ga*"="git add *"
 alias nah="git clean -df && git checkout -- ."
 alias gcl="git clone"
 alias gl="git log"
