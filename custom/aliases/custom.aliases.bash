@@ -2,7 +2,7 @@
 alias ftprintfvim="cd ~/documents/repos/ft_printf/ && nvim src/ft_printf.c -c 'lua require(\"nvterm.terminal\").toggle \"horizontal\"' -c 'wincmd w' -c NvimTreeToggle -c 'wincm w' -c vsp"
 
 # Git
-alias gs="git status"
+alias gs="onefetch; git status"
 alias ga="git add"
 alias gall="git add *"
 alias "ga*"="git add *"
