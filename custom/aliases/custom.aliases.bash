@@ -28,6 +28,7 @@ alias tx=tmuxifier
 alias francinette=~/francinette/tester.sh
 alias paco=~/francinette/tester.sh
 alias memusage=~/documents/repos/scripts/memusage.sh
+alias norm=~/documents/repos/scripts/norm.sh
 alias vim="nvim +\"NvimTreeToggle\" -c \"wincmd w\""
 alias vimdiff="nvim -d"
 alias bit=bash_it
