@@ -21,5 +21,7 @@ cd() {
 # adds time to startup
 check_directory_for_new_repository
 if [ $showed_git -eq 0 ]; then
-  neofetch
+  fastfetch
 fi
+
+norminex () { __exclude_dirs=""; while [ -n "$1" ]; do __exclude_dirs="${__exclude_dirs} -not -path './${1}*'"; shift; done; eval find . -type f -name "'*.[hc]'" ${__exclude_dirs} -print0 | xargs -r0 $(command -v norminette); unset -v __exclude_dirs; }
