@@ -30,6 +30,7 @@ alias paco=~/francinette/tester.sh
 alias memusage=~/documents/repos/scripts/memusage.sh
 alias norm=~/documents/repos/scripts/norm.sh
 alias normx=~/documents/repos/scripts/normx.sh
+alias spmeter=~/documents/repos/scripts/spmeter.sh
 alias vim="nvim +\"NvimTreeToggle\" -c \"wincmd w\""
 alias vimdiff="nvim -d"
 alias bit=bash_it
