@@ -3,6 +3,10 @@
 This is my custom bash_it configuration.
 Feel free to clone it, use it, modify it, pull request, etcetera!
 
+If you don't wanna use bash_it but still wanna have a cool command prompt, here's one:
+
+`PROMPT_COMMAND='PS1_CMD1=$(__git_ps1 "%s")'; PS1='┌──[\[\e[95;1m\]\u\[\e[0;91m\]@\[\e[92;1m\]\H\[\e[0m\]]-[\[\e[96;1m\]\w\[\e[0m\]]-[\[\e[38;5;33;1m\]\D{%d/%m/%Y}\[\e[0;96m\]|\[\e[38;5;33;1m\]\t\[\e[0m\]]-<\[\e[38;5;208;1m\]${PS1_CMD1}\[\e[0m\]>\n└──●' `
+
 ## Initial setup
 
 Setting this configuration up is really easy:
